@@ -14,8 +14,7 @@ public final class Analytics {
 
     public init() {
         amplitudeInstance = Amplitude(configuration: Configuration(
-            apiKey: "your_api_key",
-            instanceName: "op-amplitude",
+            apiKey: "does_not_matter",
             autocapture: [.sessions, .appLifecycles]
         ))
     }
